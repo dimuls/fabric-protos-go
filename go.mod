@@ -1,8 +1,8 @@
-module github.com/hyperledger/fabric-protos-go
+module github.com/dimuls/fabric-protos-go
 
-go 1.12
+go 1.16
 
 require (
-	github.com/golang/protobuf v1.3.2
-	google.golang.org/grpc v1.23.0
+	google.golang.org/grpc v1.38.0
+	google.golang.org/protobuf v1.26.0
 )
